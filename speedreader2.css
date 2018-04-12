@@ -1,0 +1,45 @@
+body{
+    font: 12pt Garamond,serif;
+    background-color: #EAF6F6;
+}
+h1 {
+    text-align: center;
+}
+
+#outputbox {
+    background-color:  #FFFFFF;
+    border: 2px solid  #8EBEBE;
+    border-radius: 5px;
+    font-size: 36pt;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    height: 100px;
+    margin: auto;
+    width: 80%;
+
+}
+
+.controls {
+    border: 1px solid #8EBEBE;
+    display: inline;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    boder: gray 1px solid;
+    width: 70px;
+    background-color: white;
+}
+
+#inputtext {
+    background-color: #FFFFFF;
+    border: 1px solid gray;
+}
+
+#validators {
+    position: fixed;
+    bottom: 2px;
+}
