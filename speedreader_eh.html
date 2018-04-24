@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Speed Reader</title>
+    <link href="speedreader_eh.css" type="text/css" rel="stylesheet">
+    <script src = "speedreader_eh1.js" type="text/javascript"></script>
+</head>
+<body>
+    <h1>Speed Reader</h1>
+    <div id="outputbox">
+        <span id="outputhere"></span>
+    </div>
+
+    <div id-="controls">
+        <div id="playcontrols">
+            <fieldset class="controls">
+                <legend>Play Controls</legend>
+                <label><button class="button" id="startbutton">Start</button></label>
+                <label><button class="button" id="stopbutton">Stop</button></label>
+            </fieldset>
+
+            <fieldset class="controls">
+                <legend>Speed</legend>
+                <select>
+                    <option id="wpm50" onchange="wpm500();">50 wpm</option>
+                    <option id="wpm300" onchange="wpm200();">300 wpm </option>
+                    <option id="wpm350" onchange="wpm171();" selected="selected">350 wpm</option>
+                    <option id="wpm150" onchange="wpm150();">400 wpm</option>
+                    <option id="wpm133" onchange="wpm133();">450 wpm</option>
+                    <option id="wpm122" onchange="wpm122();">500 wpm</option>
+                </select>
+            </fieldset>
+
+            <fieldset class="controls">
+                <legend>Size</legend>
+                <label><input id="medium" type="radio" name="font_size" checked="checked">Medium</label>
+                <label><input id="big" type="radio" name="font_size">Big</label>
+                <label><input id="bigger" type="radio" name="font_size">Bigger</input></label>
+            </fieldset>
+        </div>
+        <fieldset class="controls" id="inputhere">
+            <legend>Input Text</legend>
+            <textarea id="inputtext" rows="10" cols="80"></textarea>
+        </fieldset>
+    </div>
+    <div id="validators">
+        <a href="https://webster.cs.washington.edu/validate-html.php" class="validators">
+            <img src="https://webster.cs.washington.edu/images/w3c-html-blue.png" alt = "Valid HTML"/>
+        </a>
+        <a href ="https://webster.cs.washington.edu/validate-css.php" class="validators">
+            <img src="https://webster.cs.washington.edu/images/w3c-css-blue.png" alt="Valid CSS"/>
+        </a>
+        <a href="https://webster.cs.washington.edu/jslint/?referer" class="validators">
+            <img src="https://webster.cs.washington.edu/images/w3c-js-blue.png" alt="Valid JavaScript"/>
+        </a>
+    </div>
+</body>
+</html>

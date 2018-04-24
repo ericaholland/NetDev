@@ -1,0 +1,66 @@
+body{
+    font: 12pt Garamond,serif;
+    background-color: #EAF6F6;
+}
+h1 {
+    text-align: center;
+}
+
+#outputbox {
+    background-color:  #FFFFFF;
+    border: 2px solid  #8EBEBE;
+    border-radius: 5px;
+    font-size: 36pt;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    height: 100px;
+    margin: auto;
+    width: 80%;
+    line-height: 100px;
+    vertical-align: center;
+
+}
+
+
+.button {
+    boder: gray 1px solid;
+    width: 70px;
+    background-color: white;
+}
+
+#inputtext {
+    background-color: #FFFFFF;
+    border: 1px solid gray;
+}
+
+#validators {
+    position: fixed;
+    bottom: 2px;
+}
+
+fieldset {
+    display: inline-block;
+    border: none;
+    font-weight: bold;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+legend {
+   border-bottom: #8EBEBE solid 1px;
+    width: 100%;
+}
+
+#inputhere {
+    display: block
+}
+
+#inputhere legend {
+    width: 495px;
+}
+
+#playcontrols {
+    text-align: center;
+}
